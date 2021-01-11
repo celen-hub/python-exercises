@@ -1,6 +1,7 @@
 def prime_checker(number):
+  primerino = True
   for x in range(2, (number)):
-    primerino = True
+    
     if number % x == 0:
       primerino = False
   if primerino:
